@@ -13,7 +13,7 @@ The script can then be run:
 
 python camera_publisher_3_11.py
 
-The other folder needs to be built:
+# The other folder needs to be built:
 
 cd realsense_ws_3_12
 
