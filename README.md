@@ -1,5 +1,13 @@
 # realsense_ws
-One folder needs a python 3.11 venv. Its best to do this inside the folder 'realsense_ws_3_11': 
+
+cd ~
+
+git clone https://github.com/koghalai123/realsense_ws
+
+sudo apt install python3.11-venv python3.11
+
+
+#One folder needs a python 3.11 venv. Its best to do this inside the folder 'realsense_ws_3_11': 
 
 cd realsense_ws_3_11
 
