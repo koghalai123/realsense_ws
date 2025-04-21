@@ -13,8 +13,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Your Name',
-    maintainer_email='your@email.com',
+    maintainer='Kevin Oghalai',
+    maintainer_email='koghalai@gmail.com.com',
     description='ROS2 implementation for receiving RealSense images via ZeroMQ',
     license='Apache License 2.0',
     tests_require=['pytest'],
@@ -22,7 +22,7 @@ setup(
         'console_scripts': [
             'image_subscriber = ros2_realsense_implementation.image_subscriber:main',
             'image_display = ros2_realsense_implementation.image_display:main',
-
+            'point_cloud_viewer = ros2_realsense_implementation.point_cloud_viewer:main',
         ],
     },
 )
